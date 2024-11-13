@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <button id="mobile-menu-btn" onclick="toggleMenuOpen()">
+            <i class="fa-solid fa-bars" style="color: #fff;"></i>
+        </button>
+        <nav id="menu-middle">
+            <button id="menu-close-btn" onclick="toggleMenuOpen()">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <a href="index.html" class="menuItem">Kodu</a>
+            <a href="lists.html" class="menuItem">Listid</a>
+            <a href="store.html" class="menuItem">Pood</a>
+            <a href="#" class="menuItem menuItemMain">Meist</a>
+        </nav>
+    </header>
+    <main>
+        <section class="main-container">
+            <div id="main-text" style="display: flex; align-items: center;">
+                <img src="images/group.jpg" alt=""
+                    style="width: 511px; height: 511px; object-fit: cover; border-radius: 50%;">
+            </div>
+            <div id="about">
+                <h1 style="line-height: 100px;">Meist</h1>
+                <p>Meie veebileht on koht, kus anime fännid saavad lugeda uusimaid ülevaateid, leida anime soovitusi
+                    vastavalt oma maitsele ning arutada oma lemmiksarjade üle. Kui otsid uut anime vaatamiseks, siis me
+                    aitame sind! Siit leiad ainult parimad soovitused, mis sobivad igasugustele maitsetele, olgu need
+                    romantilised, seikluslikud või sügavad mõtisklused.</p>
+                <a href="#" action="mailto:someone@example.com"><button>Saada e-mail</button></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="footer">
+            <div class="footer_box">
+                <h3 class="footer_heading">Navigation</h3>
+                <div style="margin-top: 20px;">
+                    <a href="index.html">Kodu</a>
+                    <a href="lists.html">Listid</a>
+                    <a href="store.html">Pood</a>
+                    <a href="#" class="menuItemMain">Meist</a>
+                </div>
+            </div>
+
+            <div class="footer_box footer_box_left">
+                <h3 class="footer_heading">Sotsiaalmeedia</h3>
+                <div style="margin-top: 20px;">
+                    <a href="https://www.instagram.com/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/en/">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://www.facebook.com/">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="copyright">
+            <font>Kõik õigused kaistsud 2024 ©</font>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/84e7c2ed40.js" crossorigin="anonymous"></script>
+    <script>
+        function toggleMenuOpen() {
+            const menu = document.getElementById("menu-middle");
+            menu.classList.toggle("open"); // Toggle the "open" class
+        }
+    </script>
+</body>
+
+</html>

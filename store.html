@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+</head>
+
+<body>
+    <header>
+        <button id="mobile-menu-btn" onclick="toggleMenuOpen()">
+            <i class="fa-solid fa-bars" style="color: #fff;"></i>
+        </button>
+        <nav id="menu-middle">
+            <button id="menu-close-btn" onclick="toggleMenuOpen()">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <a href="index.html" class="menuItem">Kodu</a>
+            <a href="lists.html" class="menuItem">Listid</a>
+            <a href="#" class="menuItem menuItemMain">Pood</a>
+            <a href="about.html" class="menuItem">Meist</a>
+        </nav>
+    </header>
+    <main>
+        <section class="main-container">
+            <div id="main-text">
+                <h1 style="line-height: 100px; font-size: 35px;">Rorona Zoro figuur</h1>
+                <h2>€19.18</h2>
+                <p>Rorona Zoro figuur | Piraatide portree | Jälle purjetamine</p>
+                <a href="#"><button>Buy</button></a>
+            </div>
+            <div id="main-image">
+                <img src="images/zoro-figure.webp" alt="" style="width: 80%; height: 80%;" class="zoro">
+            </div>
+        </section>
+        <section id="popular-container" style="height: 100vh;">
+            <h1>Uued tooted</h1>
+            <div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide card">
+                            <img src="images/main_nezuko.jpg" />
+                            <div style="margin-top: 10px; padding: 10px;">
+                                <p class="name">Figuur: Kimetsu no Yaiba</p>
+                                <p class="place">Hind: 17.9 €</p>
+                            </div>
+
+                        </div>
+
+                        <div class="swiper-slide card">
+                            <img src="images/figure2.JPG" />
+                            <div style="margin-top: 10px; padding: 10px;">
+                                <p class="name">Hiina stiilis Girl Anime figuur</p>
+                                <p class="place">Hind: 30.85 €</p>
+                            </div>
+
+                        </div>
+
+                        <div class="swiper-slide card">
+                            <img src="images/knife.webp" />
+                            <div style="margin-top: 10px; padding: 10px;">
+                                <p class="name">Ninja Kunai relvapakk</p>
+                                <p class="place">Hind: 8.9 €</p>
+                            </div>
+
+                        </div>
+
+                        <div class="swiper-slide card">
+                            <img src="images/main_nezuko.jpg" />
+                            <div style="margin-top: 10px; padding: 10px;">
+                                <p class="name">Figuur: Kimetsu no Yaiba</p>
+                                <p class="place">Hind: 17.9 €</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Navigation arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                    <!-- Pagination dots -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="popular-columns card-product-container">
+                <div style="text-align: end;">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div id="desktop-version" class="card-product">
+                    <a data-fancybox="gallery" href="images/main_nezuko.jpg">
+                        <img src="https://m.media-amazon.com/images/I/61L-JuYpUIL._AC_SL1200_.jpg" alt=""
+                            style="object-fit: contain;">
+                    </a>
+                    <a data-fancybox="gallery" href="images/nezuko1.jpg">
+                    </a>
+                    <a data-fancybox="gallery" href="images/nezuko2.jpg">
+                    </a>
+                    <a data-fancybox="gallery" href="images/nezuko3.jpg"></a>
+                    <div style="margin-left: 30px;">
+                        <h2 class="name">Figuur Kimetsu no Yaiba</h2>
+                        <h2 class="price">17.9 €</h2>
+                        <p>Vaadake seda uut 1/8 mõõtkava Nezuko Kamado figuuri üha populaarsemast animesarjast Demon
+                            Slayer:
+                            Kimetsu no Yaiba. Leidke Nezuko, kes on jäädvustatud pärast Mõõgasepa külakaare viimase
+                            episoodi
+                            ikoonilist stseeni.</p>
+                        <button style="font-size: 20px; width: 317px; height: 61px;">Lisa ostukorvi</button>
+                        <button style="font-size: 20px; width: 317px; height: 61px;">Osta</button>
+                    </div>
+                </div>
+                <div id="mobile-version" class="card-product">
+                    <div style="margin-left: 30px;">
+                        <h2 class="name">Figure Kimetsu no Yaiba</h2>
+                        <a data-fancybox="gallery"
+                            href="https://m.media-amazon.com/images/I/61L-JuYpUIL._AC_SL1200_.jpg">
+                            <img src="https://m.media-amazon.com/images/I/61L-JuYpUIL._AC_SL1200_.jpg" alt=""
+                                style="object-fit: contain;">
+                        </a>
+                        <a data-fancybox="gallery"
+                            href="https://m.media-amazon.com/images/I/71q4oRHpY9L._AC_SL1500_.jpg">
+                        </a>
+                        <a data-fancybox="gallery"
+                            href="https://m.media-amazon.com/images/I/71Jm-W1pRBL._AC_SL1500_.jpg">
+                        </a>
+                        <a data-fancybox="gallery" href="https://m.media-amazon.com/images/I/514cnA2o6HL._AC_.jpg"></a>
+                        <h2 class="price">17.9 €</h2>
+                        <p>Vaadake seda uut 1/8 mõõtkava Nezuko Kamado figuuri üha populaarsemast animesarjast Demon
+                            Slayer:
+                            Kimetsu no Yaiba. Leidke Nezuko, kes on jäädvustatud pärast Mõõgasepa külakaare viimase
+                            episoodi
+                            ikoonilist stseeni.</p>
+                        <button style="font-size: 20px; width: 317px; height: 61px;">Lisa ostukorvi</button>
+                        <button style="font-size: 20px; width: 317px; height: 61px;">Osta</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="footer">
+            <div class="footer_box">
+                <h3 class="footer_heading">Navigation</h3>
+                <div style="margin-top: 20px;">
+                    <a href="index.html">Kodu</a>
+                    <a href="lists.html">Listid</a>
+                    <a href="#" class="menuItemMain">Pood</a>
+                    <a href="about.html">Meist</a>
+                </div>
+            </div>
+
+            <div class="footer_box footer_box_left">
+                <h3 class="footer_heading">Sotsiaalmeedia</h3>
+                <div style="margin-top: 20px;">
+                    <a href="https://www.instagram.com/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/en/">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://www.facebook.com/">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="copyright">
+            <font>Kõik õigused kaistsud 2024 ©</font>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/84e7c2ed40.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script>
+        const swiper = new Swiper('.mySwiper', {
+            slidesPerView: 2, // Default for larger screens
+            spaceBetween: 0,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                868: {
+                    slidesPerView: 3, // Show 2 slides on smaller screens
+                    spaceBetween: 100, // Reduce space between slides if needed
+                },
+            },
+        });
+        // Select elements for toggling
+        const swiperContainer = document.querySelector('.swiper');
+        const cardProductContainer = document.querySelector('.card-product-container');
+        const closeButton = cardProductContainer.querySelector('.fa-xmark');
+        function openCard() {
+            swiperContainer.style.display = 'none';
+
+            cardProductContainer.style.display = 'block';
+        }
+        function closeCard() {
+            swiperContainer.style.display = 'flex';
+            cardProductContainer.style.display = 'none';
+        }
+
+        // Add event listeners
+        document.querySelectorAll('.swiper-slide').forEach(slide => {
+            slide.addEventListener('click', openCard);
+        });
+
+        closeButton.addEventListener('click', closeCard);
+
+        function toggleMenuOpen() {
+            const menu = document.getElementById("menu-middle");
+            menu.classList.toggle("open"); // Toggle the "open" class
+        }
+    </script>
+</body>
+
+</html>

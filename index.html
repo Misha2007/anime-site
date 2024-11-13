@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <button id="mobile-menu-btn" onclick="toggleMenuOpen()">
+            <i class="fa-solid fa-bars" style="color: #fff;"></i>
+        </button>
+        <nav id="menu">
+            <button id="menu-close-btn" onclick="toggleMenuOpen()">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <a href="#" class="menuItem menuItemMain">Kodu</a>
+            <a href="lists.html" class="menuItem">Listid</a>
+            <a href="store.html" class="menuItem">Pood</a>
+            <a href="about.html" class="menuItem">Meist</a>
+        </nav>
+    </header>
+    <main>
+        <section class="main-container">
+            <div id="main-text">
+                <h1>Anime site</h1>
+                <hr id="main-line">
+                <p>Anime on Jaapani animatsioon, mis on tuntud oma ainulaadse kunsti, sügava narratiivi ja tugeva
+                    fännide kogukonna poolest. Anime hõlmab mitmesuguseid žanre, alates tegevusest ja seiklustest kuni
+                    romantika ja teadusfiktiini. Ükskõik, kas otsid põnevat lahingut või emotsionaalset lugu, anime
+                    pakub midagi igale vaatajale.</p>
+            </div>
+            <div id="main-image">
+                <img src="images/main-guy.png" alt="" class="main-image">
+                <img src="images/arc.png" alt="" class="arc">
+            </div>
+        </section>
+        <section id="popular-container">
+            <h1>Kõige populaarsemad animed</h1>
+            <div class="popular-columns">
+                <div class="column">
+                    <h2>One piece</h2>
+                    <hr style="width: 100px;">
+                    <p>Kunagi elas piraat nimega Gol D. Roger. Ta saavutas rikkuse, kuulsuse ja võimu, et teenida
+                        piraadikuninga tiitel. Kui ta tabati ja teda hukati, paljastas ta, et tema aare nimega One Piece
+                        oli peidetud kuhugi Grand Line'i. See pani kõik inimesed One Piece'i aaret otsima ja avastama,
+                        kuid keegi ei leidnud kunagi Gol D. Rogeri aarde asukohta ja Grand Line oli liiga ohtlik koht,
+                        et ületada. Kakskümmend kaks aastat pärast Gol D. Rogeri surma otsustas poiss nimega Monkey D.
+                        Luffy hakata piraadiks ja otsida Gol D. Rogeri aaret, et saada järgmiseks piraadikuningaks.</p>
+                </div>
+                <div class="column">
+                    <h2>Attack on Titan</h2>
+                    <hr style="width: 100px;">
+                    <p>Inimesed on peaaegu hävitatud hiiglaslike olendite poolt nimega titaanid. Titaanid on tavaliselt
+                        mitme korruse pikkused, näib, et neil pole mõistust, nad õgivad inimesi ja mis kõige hullem,
+                        näivad, et teevad seda pigem naudingu kui toiduallikana. Väike osa inimkonnast jäi ellu,
+                        müürides end maale, mida kaitsevad ülikõrged müürid, mis on isegi kõrgemad kui suurimad
+                        titaanid. Vilkuge olevikku ja inimkond pole titaani näinud üle 100 aasta. Ühel päeval on
+                        10-aastane Eren ja tema lapsepõlvesõber Mikasa tunnistajaks midagi kohutavat, kui õhust välja
+                        ilmuv kolossaalne titaan hävitab linnamüüre. Kui väiksemad titaanid linna üle ujutavad, vaatavad
+                        kaks last õudusega, kuidas Ereni ema elusalt ära süüakse. Eren tõotab, et mõrvab iga titaani ja
+                        maksab kätte kogu inimkonna eest.</p>
+                </div>
+                <div class="column">
+                    <h2>Bleach</h2>
+                    <hr style="width: 100px;">
+                    <p>Keskkooliõpilane Kurosaki Ichigo ei sarnane ühegi tavalise lapsega. Miks? Sest ta näeb kummitusi.
+                        Juba noorest peale on ta saanud näha teispoolsuses elavaid vaime. Ichigo elu muutub ühel päeval
+                        täielikult, kui teda ja ta kahte õde ründab kuri, näljane ja piinatud vaim, keda tuntakse
+                        õõnsana. Just õigel ajal abistab Ichigot ja tema õdesid-vendi Shinigami (Surmajumal) Kuchiki
+                        Rukia, kelle ülesandeks on saata häid vaime (plusse) hautaguse ellu, mida tuntakse Soul Society
+                        nime all, ning puhastada õõnsusi ja neid saata. kuni Hingeseltsini. Kuid võitluses Hollow vastu
+                        saab Rukia vigastada ja peab oma volitused Ichigole üle andma. Selle äsja omandatud jõuga algab
+                        Kurosaki Ichigo väljaõpe ja kohustus Shinigamina säilitada tasakaal elavate ja surnute maailma
+                        vahel...</p>
+                    </hr>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div id="footer">
+            <div class="footer_box">
+                <h3 class="footer_heading">Navigation</h3>
+                <div style="margin-top: 20px;">
+                    <a href="#" class="menuItemMain">Kodu</a>
+                    <a href="lists.html">Listid</a>
+                    <a href="store.html">Pood</a>
+                    <a href="about.html">Meist</a>
+                </div>
+            </div>
+
+            <div class="footer_box footer_box_left">
+                <h3 class="footer_heading">Sotsiaalmeedia</h3>
+                <div style="margin-top: 20px;">
+                    <a href="https://www.instagram.com/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/en/">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://www.facebook.com/">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="copyright">
+            <font>Kõik õigused kaistsud 2024 ©</font>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/84e7c2ed40.js" crossorigin="anonymous"></script>
+    <script>
+        function toggleMenuOpen() {
+            const menu = document.getElementById("menu");
+            menu.classList.toggle("open"); // Toggle the "open" class
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <button id="mobile-menu-btn" onclick="toggleMenuOpen()">
+            <i class="fa-solid fa-bars" style="color: #fff;"></i>
+        </button>
+        <nav id="menu-middle">
+            <button id="menu-close-btn" onclick="toggleMenuOpen()">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <a href="index.html" class="menuItem">Kodu</a>
+            <a href="#" class="menuItem menuItemMain">Listid</a>
+            <a href="store.html" class="menuItem">Pood</a>
+            <a href="about.html" class="menuItem">Meist</a>
+        </nav>
+    </header>
+    <main id="lists">
+        <section id="main-lists">
+            <div class="poster">
+                <div>
+                    <h1>20 parimat animesaadet, mida 2024. aastal vaadata</h1>
+                </div>
+                <img src="images/placard.jpg" alt="Poster">
+            </div>
+        </section>
+        <section id="popular-container" style="display: block; height: auto;">
+            <h1>10 parimat animesaadet, mida 2024. aastal vaadata</h1>
+            <ul style="text-align: left;">
+                <li onclick="toggleDetails(this)"><i class="fa-solid fa-square-minus"></i> Attack on Titan</li>
+                <div class="details">
+                    <div class="description">
+                        <img src="images/attack_on_titan.jpg" alt="" style="margin-right: 20px;">
+                        <div>
+                            <h2>Atack on Titan</h2>
+                            <p style="padding-right: 10px;">Inimesed on peaaegu hävitatud hiiglaslike olendite poolt
+                                nimega titaanid. Titaanid on tavaliselt
+                                mitme korruse pikkused, näib, et neil pole mõistust, nad õgivad inimesi ja mis kõige
+                                hullem,
+                                näivad, et teevad seda pigem naudingu kui toiduallikana. Väike osa inimkonnast jäi ellu,
+                                müürides end maale, mida kaitsevad ülikõrged müürid, mis on isegi kõrgemad kui suurimad
+                                titaanid. Vilkuge olevikku ja inimkond pole titaani näinud üle 100 aasta. Ühel päeval on
+                                10-aastane Eren ja tema lapsepõlvesõber Mikasa tunnistajaks midagi kohutavat, kui õhust
+                                välja
+                                ilmuv kolossaalne titaan hävitab linnamüüre. Kui väiksemad titaanid linna üle ujutavad,
+                                vaatavad
+                                kaks last õudusega, kuidas Ereni ema elusalt ära süüakse. Eren tõotab, et mõrvab iga
+                                titaani ja
+                                maksab kätte kogu inimkonna eest.</p>
+                        </div>
+                    </div>
+                    <h3>Kus vaadata?</h3>
+                    <ul class="platforms">
+                        <li><a
+                                href="https://hianime.to/watch/attack-on-titan-112?c_id=2392538&c_type=episode&ep=3303">hianime.com</a>
+                            Tasuta; Inglise keel (sub,
+                            dub), Jaaponi keel (sub, dub)</li>
+                        <li><a
+                                href="https://www.crunchyroll.com/series/GR751KNZY/attack-on-titan?srsltid=AfmBOoopqZplGXR_1pK39gt3_qBKqANgjvaUgen0XNp_961sJb1Etveq">crunchyroll</a>
+                            Tasuline; Inglise keel
+                            (sub,
+                            dub), Saksa keel (sub), Vene keel (sub) jne.
+                        </li>
+                        <li><a href="https://rezka.ag/franchises/622-vse-chasti-vtorzheniya-gigantov/">rezka.ag</a>
+                            Tasuta Ukraina keel (dub), Vene keel (dub)</li>
+                    </ul>
+                </div>
+                <li onclick="toggleDetails(this)"><i class="fa-solid fa-square-minus"></i> Cowboy Bebop</li>
+                <div class="details">
+                    <div class="description">
+                        <img src="images/Cowboy_Bebop.jpg" alt="" style="margin-right: 20px;">
+                        <div>
+                            <h2>Cowboy Bebop</h2>
+                            <p style="padding-right: 10px;">Inimkond on koloniseerinud tähed, kuid inimkond jääb 2071.
+                                aastal samaks meeleheitlikuks ja võimunäljaseks liigiks. Kosmosemeestest koosnev
+                                pearahaküttide duo Spike Spiegel ja Jet Black võitlevad tähtede keskel elamise nimel. ja
+                                asjad muutuvad palju keerulisemaks, kui nad adopteerivad superkoer Eini, veenavad Faye
+                                Valentine'i nime all tuntud võrgutavat naise-fatale'i ja teismelist häkker Edwardit.
+                                Need viis kuju puutuvad kokku hullumeelsemate asjadega kui Bebopi meeskond ise.</p>
+                        </div>
+                    </div>
+                    <h3>Kus vaadata?</h3>
+                    <ul class="platforms">
+                        <li><a href="https://hianime.to/cowboy-bebop-27">hianime.com</a> Tasuta; Inglise keel (sub,
+                            dub), Jaaponi keel (sub, dub)</li>
+                        <li><a href="https://www.netflix.com/ee/title/80001305">netflix</a> Tasuline; Inglise keel (sub,
+                            dub), Poola keel (sub), Soome(sub) jne.
+                        </li>
+                        <li><a href="https://rezka.ag/animation/adventures/2371-kovboy-bibop-1998.html">rezka.ag</a>
+                            Tasuta Ukraina (dub), Vene keel (dub)</li>
+                    </ul>
+                </div>
+                <li onclick="toggleDetails(this)"><i class="fa-solid fa-square-minus"></i> Death Note</li>
+                <div class="details">
+                    <div class="description">
+                        <img src="images/death-note.jpg" style="margin-right: 20px;" alt="">
+                        <div>
+                            <h2>Death Note</h2>
+                            <p style="padding-right: 10px;">Pärast seda, kui intelligentne, kuid küüniline
+                                keskkooliõpilane hakkab maailma kurjast puhastama maagilise märkmiku abil, mis võib
+                                tappa kõik, kelle nimi on sellele kirjutatud, kutsuvad rahvusvahelised võimud salapärase
+                                detektiivi nimega "L", et tema jõupingutusi nurjata.</p>
+                        </div>
+                    </div>
+                    <h3>Kus vaadata?</h3>
+                    <ul class="platforms">
+                        <li><a
+                                href="https://hianime.to/watch/death-note-60%3Fep%3D1464%26c_type%3Depisode%26c_id%3D9538093&ved=2ahUKEwjd8YjV98mJAxX2FhAIHThCO8YQFnoECAsQAQ&usg=AOvVaw19EZsiFdz_2tkZlVXcC61J">hianime.com</a>
+                            Tasuta; Inglise keel (sub,
+                            dub), Jaaponi keel (sub, dub)</li>
+                        <li><a
+                                href="https://www.netflix.com/title/70204970&ved=2ahUKEwjd8YjV98mJAxX2FhAIHThCO8YQFnoECBUQAQ&usg=AOvVaw0FdF4l1HpTlO2cR1timi3h">netflix</a>
+                            Tasuline; Inglise keel (sub,
+                            dub), Poola keel (sub), Soome(sub) jne.
+                        </li>
+                        <li><a href="https://rezka.ag/animation/detective/1765-tetrad-smerti-2006.html">rezka.ag</a>
+                            Tasuta Ukraina (dub), Vene keel (dub)</li>
+                    </ul>
+                </div>
+                <li onclick="toggleDetails(this)"><i class="fa-solid fa-square-minus"></i> Delicious in Dungeon</li>
+                <div class="details">
+                    <div class="description">
+                        <img src="images/delicious-in-dungeon.jpg" alt="" style="margin-right: 20px;">
+                        <div>
+                            <h2>Delicious in Dungeon</h2>
+                            <p style="padding-right: 10px;">Seiklev rüütel Laios Touden juhib väikese seltskonna läbi
+                                lõputuna näivas koopas, maa-aluses rägastikus, mis on täis ohtlikke koletisi ja
+                                ebakindlaid lõkse. Täiustatud maagia abil saab maadeavastaja mõnikord ellu äratada,
+                                võimaldades neil õppida mineviku vigadest ja anda vangikoopa läbimisele uue võimaluse.
+                                Kui võimas draakon aga sööb Falini, Laiose loitsuõe, saadab ta oma venna ja tema
+                                kaaslased tagasi algusesse, et päästa neid püsivatest otstest. Ehkki Laiosel on raha ja
+                                varustuse puudus, otsustab ta end koopast läbi võidelda ja Falini päästa, enne kui
+                                draakon teda seedib. Hoolimata sellest, et mõned Laiose liitlased ta hülgasid, jäävad
+                                tema kõrvale kaks: päkapikkmaag Marcille Donato ja poolik lukksepp Chilchuck Tims.
+                                Rahapuuduse tõttu seisab erakond silmitsi hirmuäratava väljavaatega nälga jääda, enne
+                                kui ta suudab oma otsingud lõpule viia. Siiski leiavad nad pääste Senshis,
+                                kääbussõdalases, kes kipub süüa tegema ja võidetud koletisi ohutult süüa. Senshi
+                                kulinaarsete teadmistega Laios ja tema kaaslased võitlevad koopasse, õppides samal ajal
+                                gurmeeroogasid ja üksteist.</p>
+                        </div>
+                    </div>
+                    <h3>Kus vaadata?</h3>
+                    <ul class="platforms">
+                        <li><a href="https://hianime.to/watch/delicious-in-dungeon-18506?ep=114676">hianime.com</a>
+                            Tasuta; Inglise keel (sub,
+                            dub), Jaaponi keel (sub, dub)</li>
+                        <li><a href="https://www.netflix.com/ee/title/81564899">netflix</a> Tasuline; Inglise keel (sub,
+                            dub), Poola keel (sub), Soome(sub) jne.
+                        </li>
+                        <li><a
+                                href="https://rezka.ag/animation/adventures/65758-podzemele-vkusnostey-2024.html">rezka.ag</a>
+                            Tasuta Ukraina (dub), Vene keel (dub)</li>
+                    </ul>
+                </div>
+                <li onclick="toggleDetails(this)"><i class="fa-solid fa-square-minus"></i> Demon Slayer
+                </li>
+                <div class="details">
+                    <div class="description">
+                        <img src="images/demon-slayer.jpg" alt="" style="margin-right: 20px;">
+                        <div>
+                            <h2>Demon Slayer</h2>
+                            <p style="padding-right: 10px;">Deemonid ründavad perekonda ja ellu jäävad vaid kaks liiget
+                                – Tanjiro ja tema õde Nezuko, kes muutub aeglaselt deemoniks. Tanjiro kavatseb saada
+                                deemonitapjaks, et maksta kätte oma perele ja ravida õde.</p>
+                        </div>
+                    </div>
+                    <h3>Kus vaadata?</h3>
+                    <ul class="platforms">
+                        <li><a href="https://hianime.to/watch/delicious-in-dungeon-18506?ep=114676">hianime.com</a>
+                            Tasuta; Inglise keel (sub,
+                            dub), Jaaponi keel (sub, dub)</li>
+                        <li><a href="https://www.netflix.com/ee/title/81564899">netflix</a> Tasuline; Inglise keel (sub,
+                            dub), Poola keel (sub), Soome(sub) jne.
+                        </li>
+                        <li><a
+                                href="https://rezka.ag/animation/adventures/65758-podzemele-vkusnostey-2024.html">rezka.ag</a>
+                            Tasuta Ukraina (dub), Vene keel (dub)</li>
+                    </ul>
+                </div>
+                <!-- Haikyu -->
+                <li onclick="toggleDetails(this)"><i class="fa-solid fa-square-minus"></i> Haikyu!!</li>
+                <div class="details">
+                    <div class="description">
+                        <img src="images/haikyu.jpg" alt="" style="margin-right: 20px;">
+                        <div>
+                            <h2>Haikyu!!</h2>
+                            <p style="padding-right: 10px;">Haikyu!! järgneb Hinata Shoyo teekonnale, kes vaatamata oma
+                                lühikesele kasvule
+                                on inspireeritud saama võrkpallis silmapaistvaks mängijaks. Ta liitub Karasuno
+                                keskkooliga, kunagise
+                                võrkpalli hiiglasega, mis püüab oma hiilguse taastada. Hinata töötab koos oma rivaalist
+                                meeskonnakaaslase Kageyama Tobio'ga,
+                                et õppida ja kasvada, läbides väljakutseid, võistlusi ja meeskonnatööd, mis viib nad
+                                suurde riikliku areenile.</p>
+                        </div>
+                    </div>
+                    <h3>Kus vaadata?</h3>
+                    <ul class="platforms">
+                        <li><a href="https://example.com/haikyu">hianime.com</a> Tasuta; Inglise keel (sub, dub),
+                            Jaapani keel (sub, dub)</li>
+                        <li><a href="https://www.netflix.com/ee/title/80036732">netflix</a> Tasuline; Inglise keel
+                            (sub), Jaapani keel (sub)</li>
+                        <li><a href="https://rezka.ag/animation/adventures/haikyu">rezka.ag</a> Tasuta; Ukraina keel
+                            (dub), Vene keel (dub)</li>
+                    </ul>
+                </div>
+
+                <!-- Jujutsu Kaisen -->
+                <li onclick="toggleDetails(this)"><i class="fa-solid fa-square-minus"></i> Jujutsu Kaisen</li>
+                <div class="details">
+                    <div class="description">
+                        <img src="images/jujutsu-kaisen.jpg" alt="" style="margin-right: 20px;">
+                        <div>
+                            <h2>Jujutsu Kaisen</h2>
+                            <p style="padding-right: 10px;">Lugu jälgib keskkooliõpilast Yuji Itadorit, kes satub
+                                üleloomulikku maailma,
+                                kui ta sööb iidse needuse sõrme, saades osaks ohtlikule vaimude ja deemonite maailmale.
+                                Ta liitub Tokyo Jujutsu
+                                Kooli eksortsistidega, et kaitsta inimesi neetud olendite eest, õppides uusi võimeid ja
+                                astudes vastu hirmuäratavatele vaenlastele,
+                                et kaitsta oma sõpru ja maailma.</p>
+                        </div>
+                    </div>
+                    <h3>Kus vaadata?</h3>
+                    <ul class="platforms">
+                        <li><a href="https://example.com/jujutsu-kaisen">hianime.com</a> Tasuta; Inglise keel (sub,
+                            dub), Jaapani keel (sub, dub)</li>
+                        <li><a href="https://www.netflix.com/ee/title/81278456">netflix</a> Tasuline; Inglise keel
+                            (sub), Poola keel (sub), Soome(sub)</li>
+                        <li><a href="https://rezka.ag/animation/adventures/jujutsu-kaisen">rezka.ag</a> Tasuta; Ukraina
+                            keel (dub), Vene keel (dub)</li>
+                    </ul>
+                </div>
+
+                <!-- Mob Psycho 100 -->
+                <li onclick="toggleDetails(this)"><i class="fa-solid fa-square-minus"></i> Mob Psycho 100</li>
+                <div class="details">
+                    <div class="description">
+                        <img src="images/mob-psycho-100.jpg" alt="" style="margin-right: 20px;">
+                        <div>
+                            <h2>Mob Psycho 100</h2>
+                            <p style="padding-right: 10px;">Keskkooliõpilane Shigeo Kageyama, keda kutsutakse Mobiks, on
+                                erakordsete psüühiliste
+                                võimetega, kuid püüab elada normaalset elu ja hoida oma emotsioone kontrolli all. Ometi
+                                kogub ta jõudu,
+                                mis ähvardab iga hetk kontrolli alt väljuda, kui tema emotsioonid jõuavad 100%-ni. Koos
+                                oma petisest õpetaja
+                                Reigeniga astub Mob vastu teistele üleloomulikele jõududele, leides tõelise mina ja rahu
+                                otsinguil huumorit ja südamlikke hetki.</p>
+                        </div>
+                    </div>
+                    <h3>Kus vaadata?</h3>
+                    <ul class="platforms">
+                        <li><a href="https://example.com/mob-psycho-100">hianime.com</a> Tasuta; Inglise keel (sub,
+                            dub), Jaapani keel (sub, dub)</li>
+                        <li><a href="https://www.netflix.com/ee/title/80175421">netflix</a> Tasuline; Inglise keel
+                            (sub), Jaapani keel (sub)</li>
+                        <li><a href="https://rezka.ag/animation/adventures/mob-psycho-100">rezka.ag</a> Tasuta; Ukraina
+                            keel (dub), Vene keel (dub)</li>
+                    </ul>
+                </div>
+
+                <!-- Violet Evergarden -->
+                <li onclick="toggleDetails(this)"><i class="fa-solid fa-square-minus"></i> Violet Evergarden</li>
+                <div class="details">
+                    <div class="description">
+                        <img src="images/violet-evergarden.jpg" alt="" style="margin-right: 20px;">
+                        <div>
+                            <h2>Violet Evergarden</h2>
+                            <p style="padding-right: 10px;">Violet Evergarden on endine sõdur, kes sõja lõppedes otsib
+                                oma eksistentsi tähendust
+                                ja õpib väljendama emotsioone, mida ta ei ole kunagi varem tundnud. Ta asub tööle
+                                automaatse kirjasulena,
+                                kirjutades klientide nimel kirju, mis kajastavad sügavaid tundeid ja aitavad tal mõista
+                                sõna "armastus",
+                                mida tema ülemus talle viimati ütles.</p>
+                        </div>
+                    </div>
+                    <h3>Kus vaadata?</h3>
+                    <ul class="platforms">
+                        <li><a href="https://example.com/violet-evergarden">hianime.com</a> Tasuta; Inglise keel (sub,
+                            dub), Jaapani keel (sub, dub)</li>
+                        <li><a href="https://www.netflix.com/ee/title/80221256">netflix</a> Tasuline; Inglise keel
+                            (sub), Jaapani keel (sub), Poola keel (sub)</li>
+                        <li><a href="https://rezka.ag/animation/adventures/violet-evergarden">rezka.ag</a> Tasuta;
+                            Ukraina keel (dub), Vene keel (dub)</li>
+                    </ul>
+                </div>
+
+                <!-- Vinland Saga -->
+                <li onclick="toggleDetails(this)"><i class="fa-solid fa-square-minus"></i> Vinland Saga</li>
+                <div class="details">
+                    <div class="description">
+                        <img src="images/vinland-saga.jpg" alt="" style="margin-right: 20px;">
+                        <div>
+                            <h2>Vinland Saga</h2>
+                            <p style="padding-right: 10px;">Vinland Saga keskendub viikingitele ja Thorfinnile, keda
+                                ajendab kättemaks tema
+                                isa mõrva eest. Rännakult õpib ta, et kättemaks pole ainus viis leida rahu. Thorfinn
+                                avastab oma teel
+                                sõduriks ja inimeseks kasvamise tähenduse, liitudes kuningate, sõdurite ja palgasõdurite
+                                maailmaga,
+                                mis on täis eepilisi lahinguid ja sisemist võitlust õiguse ja rahu leidmiseks.</p>
+                        </div>
+                    </div>
+                    <h3>Kus vaadata?</h3>
+                    <ul class="platforms">
+                        <li><a href="https://example.com/vinland-saga">hianime.com</a> Tasuta; Inglise keel (sub, dub),
+                            Jaapani keel (sub, dub)</li>
+                        <li><a href="https://www.netflix.com/ee/title/81000532">netflix</a> Tasuline; Inglise keel
+                            (sub), Poola keel (sub), Soome(sub)</li>
+                        <li><a href="https://rezka.ag/animation/adventures/vinland-saga">rezka.ag</a> Tasuta; Ukraina
+                            keel (dub), Vene keel (dub)</li>
+                    </ul>
+                </div>
+
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <div id="footer">
+            <div class="footer_box">
+                <h3 class="footer_heading">Navigation</h3>
+                <div style="margin-top: 20px;">
+                    <a href="index.html">Kodu</a>
+                    <a href="#" class="menuItemMain">Listid</a>
+                    <a href="store.html">Pood</a>
+                    <a href="about.html">Meist</a>
+                </div>
+            </div>
+
+            <div class="footer_box footer_box_left">
+                <h3 class="footer_heading">Sotsiaalmeedia</h3>
+                <div style="margin-top: 20px;">
+                    <a href="https://www.instagram.com/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/en/">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://www.facebook.com/">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="copyright">
+            <font>Kõik õigused kaistsud 2024 ©</font>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/84e7c2ed40.js" crossorigin="anonymous"></script>
+    <script>
+        function toggleDetails(element) {
+            // Select the next sibling element (details div)
+            const details = element.nextElementSibling;
+
+            // Toggle visibility of the details div
+            if (details.style.display === "block" || details.style.display === "") {
+                details.style.display = "none";
+                element.querySelector("i").classList.replace("fa-square-minus", "fa-square-plus");
+            } else {
+                details.style.display = "block";
+                element.querySelector("i").classList.replace("fa-square-plus", "fa-square-minus");
+            }
+        }
+        function toggleMenuOpen() {
+            const menu = document.getElementById("menu-middle");
+            menu.classList.toggle("open"); // Toggle the "open" class
+        }
+    </script>
+</body>
+
+</html>
